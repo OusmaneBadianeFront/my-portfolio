@@ -37,6 +37,7 @@ html{
     color: black;
     background-color: white;
     margin-bottom: 3.8rem;
+
     
 }
 
@@ -85,7 +86,7 @@ html{
 .nav-item:visited{
     font-size: 14px;
     line-height: 3.66667;
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: -.01em;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: black;
