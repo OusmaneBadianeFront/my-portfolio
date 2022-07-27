@@ -2,6 +2,7 @@ const menuButton = document.querySelector('.btn-mobile-nav');
 // const menuButton = document.querySelector('.btn-mobile-nav');
 console.log(menuButton  )
 const header = document.querySelector('header');
+const navItems=document.querySelectorAll('.nav-item');
 const section2 = document.querySelector('.section--2')
 
 
@@ -11,6 +12,10 @@ menuButton.addEventListener('click',function(e){
 header.classList.toggle('open-nav')
 }
 )
+
+navItems.forEach(nav=>nav.addEventListener('click',function(){
+   header.classList.remove('open-nav')
+}))
 
 
 // Sticky Navigation
