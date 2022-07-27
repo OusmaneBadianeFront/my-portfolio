@@ -173,6 +173,17 @@ p{
     transform: translateX(100%);
 }
 
+.sticky{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 5rem;
+    z-index: 999;
+    padding-bottom: 0;
+
+}
+
+
 .open-nav .navigation{
     opacity: 1;
     pointer-events: auto;
@@ -201,6 +212,16 @@ gap: 4.8rem;
 
 @media(max-width:47em){
 
+
+    .sticky{
+        position: relative;
+        top: 0;
+        left: 0;
+        height: 5rem;
+        z-index: 999;
+        padding-bottom: 0;
+    
+    }
     .heading-secondary{
         font-size: 1.3rem;
         
